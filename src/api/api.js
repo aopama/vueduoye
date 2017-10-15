@@ -7,9 +7,9 @@ import axios from 'axios';
 
 const node_env = {
   node_env:'development',
-  production:'http://www.qiaoxi.com', //本地
-  test:'http://test.chel-c.com/', //灰度
-  development:'http://vip.chel-c.com' //线上
+  production:'', //本地
+  test:'', //灰度
+  development:'' //线上
 }
 
 Vue.prototype.Imgurldizhi = 'http://opcr7ahpg.bkt.clouddn.com/';
