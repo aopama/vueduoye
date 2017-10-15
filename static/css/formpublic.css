@@ -1,0 +1,32 @@
+/*单选按钮*/
+.radio_group{float:left;color: #202020;font-size: 0.34666rem;}
+.radio_group input{float:left;background: ;padding: 0;margin: 0;border: 0;width:0.4rem;height:0.4rem;visibility:hidden;}
+.radio_group label{position:relative;font-size: 0.34666rem;line-height:0.4rem;float: left;padding-left: 0.28rem;}
+.radio_group label:after{content:"";display:block;width:0.4rem;height:0.4rem;background:#ffffff;position:absolute;top:0px;left:-0.4rem;border-radius: 50%;box-sizing: border-box;border:0.01333rem solid #d7d7d7;}
+.radio_group input:checked+label:after{content:"";display:block;width:0.4rem;height:0.4rem;background:#008bd9;border-radius:50%;border:0;}
+.radio_group input:checked+label:before{content:"";display:block;position:absolute;top:0.08rem;left:-0.32rem;width:0.2rem;height:0.133333rem;border:0.04rem solid #ffffff;z-index:5;-webkit-transform: rotate(-45deg);transform: rotate(-45deg);border-top:0;border-right:0;}
+.infoFill li.sex_li>.input_group{border:0;}
+.infoFill li .sex_group>span{margin-right: 0.9rem;margin-top:0.36rem;}
+
+/*按钮*/
+.interactionbtn{height:1.12rem;background:#008bd9;font-size:0.4rem;margin:0.8rem auto;border-radius:0.08rem;overflow: hidden;}
+.interactionbtn button{font-size: 0.4rem;background: #008bd9;border:0;outline: none;width: 100%;height: 100%;color:white;}
+
+/*表单*/
+.infoFill{padding:0.26667rem;background: #f1faff;}
+.infoFill li{display:-webkit-box;display:box;display:-webkit-flex;display:flex;margin-top: 0.18667rem;font-size: 0.37333rem;height: 1.12rem;}
+.infoFill li>span{width:1.6rem;display:block;line-height: 1.12rem;margin-right:.266rem;}
+.infoFill li>.input_group{-webkit-box-flex:1;flex:1;height: 1.12rem;float: right;width:7.2rem;border:0.013333rem solid #eaeaea;position: relative;}
+.infoFill li>.input_group>input{-webkit-appearance: none;height: 100%;width: 100%;border:0;text-indent:0.33333rem;background:#ffffff;border:0;}
+.infoFill li>.input_group>select{-webkit-appearance: none;border:0;width: 100%;height: 100%;outline: none;font-size: 0.37333rem;background:#ffffff;}
+.infoFill li>.input_group span.Engname{color:#008bd9;font-size: 0.26667rem;position: absolute;right:0.24rem;top: 50%;margin-top:-0.33333rem;height: 0.66666rem;border:0.013333rem solid #008bd9;padding: 0 0.12rem;line-height: 0.6rem;border-radius: 0.04rem}
+/*单独的性别男女*/
+.choice_sex{display:-webkit-box;display:box;display:-webkit-flex;display:flex;-webkit-box-align:center;align-items:center;padding:0.26667rem;overflow: hidden;background:#f1faff;font-size:0.37333rem;line-height: 0.64rem;color: #202020;margin-top: 0.266667rem;}
+.choice_sex>span{width: 1.6rem;display: block;line-height: 1.12rem;margin-right: .266rem;}
+.choice_sex>.input_group{float: right;width:7.2rem;}
+.choice_sex>.input_group>span{margin-top: 0.12rem;margin-right: 0.9rem;}
+/*头像*/
+.headportrait{height: 1.86667rem;background:#f1faff;font-size:0.37333rem;color: #202020;padding:0.26667rem;line-height: 1.33333rem;}
+.headportrait>span{font-size:0.37333rem;color: #202020;float: left;}
+.headportrait>img{height:1.33333rem;width: 1.33333rem;float: right;margin-right: 0.32rem;}
+.headportrait>i{font-size:0.32rem;color: #808080;float: right;}
